@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wiggle Font Showcase</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="hero" aria-labelledby="title">
+            <div class="hero-grid">
+                <div>
+                    <p class="kicker">Typeface showcase</p>
+                    <h1 id="title">Wiggle</h1>
+                    <p class="hero-copy">
+                        A warm, tactile specimen page for the attached font. The layout is built to let the letterforms breathe,
+                        with a dedicated playground so people can type their own words and see how the font behaves at large sizes.
+                    </p>
+                    <div class="meta-row" aria-label="Font details">
+                        <span class="pill">Format: OTF / TTF</span>
+                        <span class="pill">Style: Regular</span>
+                        <span class="pill">Use: Display specimen</span>
+                    </div>
+                </div>
+                <aside class="hero-panel">
+                    <span class="stat-label">Featured sample</span>
+                    <p class="big-sample">Make letters move with rhythm and charm.</p>
+                </aside>
+            </div>
+        </section>
+
+        <div class="sections">
+            <section class="card specimen" aria-labelledby="specimen-title">
+                <p class="section-heading" id="specimen-title">Specimen</p>
+                <div class="specimen-line">
+                    <span class="label">Alphabet</span>
+                    <p class="glyphs">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz</p>
+                </div>
+                <div class="specimen-line">
+                    <span class="label">Numerals</span>
+                    <p class="glyphs">0123456789  •  ! ? &amp; % # @</p>
+                </div>
+                <div class="specimen-line">
+                    <span class="label">Pangram</span>
+                    <p class="pangram">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </section>
+
+            <section class="card playground-wrap" aria-labelledby="playground-title">
+                <div class="help-row">
+                    <p class="section-heading" id="playground-title">Playground</p>
+                    <span>Click the box below and type your own phrase.</span>
+                </div>
+                <div class="playground" contenteditable="true" spellcheck="false" role="textbox" aria-label="Editable font playground">Type here to test the Wiggle font</div>
+            </section>
+
+            <section class="card">
+                <p class="section-heading">Notes</p>
+                <p class="footer-note">
+                    Keep <strong>index.html</strong> in the same folder as <strong>Wiggle-Regular.otf</strong> and <strong>Wiggle-Regular.ttf</strong> so the font loads automatically.
+                    If you only want one source file, you can keep this page as-is and swap the font files later without changing the layout.
+                </p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
